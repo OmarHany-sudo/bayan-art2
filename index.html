@@ -1,0 +1,648 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BAYAN ART | أتيليه الحناء</title>
+  <meta name="description" content="فنانه حناء محترفه في مصر. تصاميم حناء فريده للعرايس والمناسبات.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;800;900&family=Tajawal:wght@300;400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="page-wrapper">
+
+    <!-- Gold Hairline -->
+    <div class="hairline-gold fixed-top"></div>
+
+    <!-- ========== HEADER ========== -->
+    <header id="header" class="header">
+      <div class="container">
+        <nav class="nav">
+          <a href="#hero" class="logo-link" onclick="scrollToSection('hero'); return false;">
+            <img src="images/logo_a4e7bf47.png" alt="BAYAN ART Logo" class="logo-img">
+            <span class="logo-text">
+              <span class="logo-title">BAYAN ART</span>
+              <span class="logo-sub">أتيليه الحناء</span>
+            </span>
+          </a>
+
+          <!-- Desktop Nav -->
+          <div class="desktop-nav">
+            <button onclick="scrollToSection('hero')" class="nav-link">الرئيسيه</button>
+            <button onclick="scrollToSection('why-choose')" class="nav-link">لماذا بيان</button>
+            <button onclick="scrollToSection('about')" class="nav-link">من نحن</button>
+            <button onclick="scrollToSection('services')" class="nav-link">خدماتنا</button>
+            <button onclick="scrollToSection('gallery')" class="nav-link">المعرض</button>
+            <button onclick="scrollToSection('pricing')" class="nav-link">الأسعار</button>
+            <button onclick="scrollToSection('testimonials')" class="nav-link">الآراء</button>
+            <button onclick="scrollToSection('faq')" class="nav-link">الأسئله</button>
+            <button onclick="scrollToSection('contact')" class="btn-gold btn-nav-cta">احجزي الآن</button>
+          </div>
+
+          <!-- Mobile Menu Button -->
+          <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="فتح القائمة">
+            <svg class="icon-menu" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg>
+            <svg class="icon-close hidden" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+          </button>
+        </nav>
+
+        <!-- Mobile Menu -->
+        <div class="mobile-menu" id="mobileMenu">
+          <button onclick="scrollToSection('hero')" class="mobile-nav-link">الرئيسيه</button>
+          <button onclick="scrollToSection('why-choose')" class="mobile-nav-link">لماذا بيان</button>
+          <button onclick="scrollToSection('about')" class="mobile-nav-link">من نحن</button>
+          <button onclick="scrollToSection('services')" class="mobile-nav-link">خدماتنا</button>
+          <button onclick="scrollToSection('gallery')" class="mobile-nav-link">المعرض</button>
+          <button onclick="scrollToSection('pricing')" class="mobile-nav-link">الأسعار</button>
+          <button onclick="scrollToSection('testimonials')" class="mobile-nav-link">الآراء</button>
+          <button onclick="scrollToSection('faq')" class="mobile-nav-link">الأسئله</button>
+          <button onclick="scrollToSection('contact')" class="mobile-nav-link">تواصلي معنا</button>
+        </div>
+      </div>
+    </header>
+
+    <main>
+
+      <!-- ========== 1. HERO ========== -->
+      <section id="hero" class="hero-section">
+        <div class="hero-overlay"></div>
+        <div class="container hero-container">
+          <div class="hero-grid">
+            <div class="hero-content animate-fade-in-left">
+              <div class="section-eyebrow justify-start">أتيليه حناء في قلب مصر</div>
+              <h1 class="display-title">
+                فنانه حناء
+                <span class="text-gold"> محترفه</span>
+                <br>
+                في مصر
+              </h1>
+              <p class="hero-desc">
+                نصنع تصاميم حناء فريده تحوّل بشرتك إلى لوحه فنيه، من ليلة العمر إلى أبسط الاحتفالات.
+              </p>
+              <div class="hero-buttons">
+                <button onclick="scrollToSection('contact')" class="btn-gold">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="btn-icon"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+                  احجزي موعدك
+                </button>
+                <button onclick="scrollToSection('gallery')" class="btn-outline-gold">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="btn-icon"><circle cx="13.5" cy="6.5" r=".5"></circle><circle cx="17.5" cy="10.5" r=".5"></circle><circle cx="8.5" cy="7.5" r=".5"></circle><circle cx="6.5" cy="12.5" r=".5"></circle><path d="M12 2C6.5 2 2 6.5 2 12s4.5 10 10 10c.926 0 1.648-.746 1.648-1.688 0-.437-.18-.835-.437-1.125-.29-.289-.438-.652-.438-1.125a1.64 1.64 0 0 1 1.668-1.668h1.996c3.051 0 5.555-2.503 5.555-5.554C21.965 6.012 17.461 2 12 2z"></path></svg>
+                  معرض أعمالنا
+                </button>
+              </div>
+            </div>
+            <div class="hero-image animate-fade-in-right">
+              <div class="offset-border">
+                <img src="images/hero_0c9f33e7.png" alt="تصميم حناء فني على يد" class="hero-img">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="hero-bottom-fade"></div>
+      </section>
+
+      <!-- ========== 2. WHY CHOOSE ========== -->
+      <section id="why-choose" class="section-cream">
+        <div class="hairline-gold"></div>
+        <div class="container">
+          <h2 class="section-title-gold">لماذا تختارين بيان ارت؟</h2>
+          <div class="why-grid">
+            <div class="glass-card why-card animate-fade-in-up stagger-1">
+              <div class="why-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="13.5" cy="6.5" r=".5"></circle><circle cx="17.5" cy="10.5" r=".5"></circle><circle cx="8.5" cy="7.5" r=".5"></circle><circle cx="6.5" cy="12.5" r=".5"></circle><path d="M12 2C6.5 2 2 6.5 2 12s4.5 10 10 10c.926 0 1.648-.746 1.648-1.688 0-.437-.18-.835-.437-1.125-.29-.289-.438-.652-.438-1.125a1.64 1.64 0 0 1 1.668-1.668h1.996c3.051 0 5.555-2.503 5.555-5.554C21.965 6.012 17.461 2 12 2z"></path></svg>
+              </div>
+              <h3 class="why-title">تصاميم حصريه</h3>
+              <p class="why-desc">كل تصميمه لوحه فنيه فريده تُنفذ خصيصاً لذوقك ومناسبتك</p>
+            </div>
+            <div class="glass-card why-card animate-fade-in-up stagger-2">
+              <div class="why-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z"></path></svg>
+              </div>
+              <h3 class="why-title">حناء طبيعيه 100%</h3>
+              <p class="why-desc">مواد طبيعيه نقية آمنه تماماً على البشره</p>
+            </div>
+            <div class="glass-card why-card animate-fade-in-up stagger-3">
+              <div class="why-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m11.767 19.089c4.924.868 6.14-6.025 1.216-6.894m-1.216 6.894L5.86 18.047m5.908 1.042-.347 1.97m1.563-8.864c4.924.869 6.14-6.025 1.215-6.893m-1.215 6.893-3.94-.694m5.155-6.2L8.29 4.26m5.908 1.042.348-1.97M7.48 20.364l3.126-17.727"></path></svg>
+              </div>
+              <h3 class="why-title">خبره ثماني سنوات</h3>
+              <p class="why-desc">أكثر من 1000 تصميم ناجح لعميلات سعيدات</p>
+            </div>
+            <div class="glass-card why-card animate-fade-in-up stagger-4">
+              <div class="why-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m12 3-1.912 5.813a2 2 0 0 1-1.275 1.275L3 12l5.813 1.912a2 2 0 0 1 1.275 1.275L12 21l1.912-5.813a2 2 0 0 1 1.275-1.275L21 12l-5.813-1.912a2 2 0 0 1-1.275-1.275L12 3Z"></path><path d="M5 3v4"></path><path d="M19 17v4"></path><path d="M3 5h4"></path><path d="M17 19h4"></path></svg>
+              </div>
+              <h3 class="why-title">تجربه ممتازه</h3>
+              <p class="why-desc">التزام بالمواعيد وأجواء هادئه ومريحه من البدايه للنهايه</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ========== 3. ABOUT ========== -->
+      <section id="about" class="section-white">
+        <div class="container">
+          <div class="about-grid">
+            <div class="about-image animate-fade-in-left">
+              <div class="offset-border">
+                <img src="images/about_9bce3cc3.png" alt="بيان ترسم الحناء" class="about-img">
+              </div>
+            </div>
+            <div class="about-content animate-fade-in-right">
+              <div class="section-eyebrow justify-end">قصتنا</div>
+              <h2 class="about-title">من نحن</h2>
+              <div class="gold-line"></div>
+              <p class="about-text">
+                أنا بيان، فنانه حناء محترفه في مصر بخبره تمتد لأكثر من 8 سنوات. شغفي هو تحويل بشرتك
+                إلى لوحه فنيه بتفاصيل دقيقه وتصاميم حصريه. أستخدم أجود أنواع الحناء الطبيعيه وأتابع
+                كل تصميمه حتى تحصلين على نتيجه تفوق توقعاتك.
+              </p>
+              <div class="counters-grid">
+                <div class="counter-item" data-target="500">
+                  <div class="counter-number"><span class="counter-value">0</span>+</div>
+                  <div class="counter-label">عميله سعيده</div>
+                </div>
+                <div class="counter-item" data-target="8">
+                  <div class="counter-number"><span class="counter-value">0</span>+</div>
+                  <div class="counter-label">سنوات خبره</div>
+                </div>
+                <div class="counter-item" data-target="1000">
+                  <div class="counter-number"><span class="counter-value">0</span>+</div>
+                  <div class="counter-label">تصميم حناء</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ========== 4. SERVICES ========== -->
+      <section id="services" class="section-soft">
+        <div class="container">
+          <h2 class="section-title-gold">خدماتنا</h2>
+          <svg class="silk-divider" viewBox="0 0 120 24" fill="none" aria-hidden="true">
+            <path d="M0 12 Q30 0 60 12 T120 12" stroke="#C9A86A" stroke-width="1.2" fill="none"/>
+          </svg>
+          <p class="section-subtitle">فنٌّ يتجدد مع كل مناسبه، اخترنا لك ثلاث لوحات</p>
+          <div class="services-grid">
+            <div class="service-card">
+              <div class="service-img-wrapper">
+                <img src="images/service-bridal_afb6bd53.png" alt="حناء العرايس" class="service-img">
+              </div>
+              <div class="service-info">
+                <h3 class="service-title">حناء العرايس</h3>
+                <p class="service-desc">تصاميم ملكيه مفصله لليدين والقدمين، تصنع من عرسك ذكرى لا تُنسى</p>
+                <div class="service-price">يبدأ من 500 ج.م</div>
+              </div>
+            </div>
+            <div class="service-card">
+              <div class="service-img-wrapper">
+                <img src="images/service-party_723864e6.png" alt="حناء المناسبات" class="service-img">
+              </div>
+              <div class="service-info">
+                <h3 class="service-title">حناء المناسبات</h3>
+                <p class="service-desc">تصاميم راقية تناسب الخطوبه، الاستقبال، والأعياد بكل أناقه</p>
+                <div class="service-price">يبدأ من 150 ج.م</div>
+              </div>
+            </div>
+            <div class="service-card">
+              <div class="service-img-wrapper">
+                <img src="images/service-kids_a1be5b98.png" alt="حناء الأطفال" class="service-img">
+              </div>
+              <div class="service-info">
+                <h3 class="service-title">حناء الأطفال</h3>
+                <p class="service-desc">تصاميم لطيفه ومرحه تمنح الصغيرات فرحه لا تُنسى</p>
+                <div class="service-price">يبدأ من 80 ج.م</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ========== 5. GALLERY ========== -->
+      <section id="gallery" class="section-white">
+        <div class="container">
+          <h2 class="section-title-gold">معرض أعمالنا</h2>
+          <svg class="silk-divider" viewBox="0 0 120 24" fill="none" aria-hidden="true">
+            <path d="M0 12 Q30 24 60 12 T120 12" stroke="#C9A86A" stroke-width="1.2" fill="none"/>
+          </svg>
+          <p class="section-subtitle">لقطة من لوحاتنا، كل تصميمه حكاية تحكى</p>
+
+          <!-- Filter Buttons -->
+          <div class="gallery-filters">
+            <button class="filter-btn active" data-filter="الكل">الكل</button>
+            <button class="filter-btn" data-filter="عرايس">عرايس</button>
+            <button class="filter-btn" data-filter="مناسبات">مناسبات</button>
+            <button class="filter-btn" data-filter="حامل">حامل</button>
+          </div>
+
+          <!-- Masonry Grid -->
+          <div class="masonry-grid" id="galleryGrid">
+            <div class="gallery-item" data-category="عرايس" onclick="openLightbox('images/gallery-1_f57697d0.png')">
+              <img src="images/gallery-1_f57697d0.png" alt="تصميم حناء - عرايس" class="gallery-img" style="height:288px">
+              <div class="gallery-overlay"><span class="gallery-cat">عرايس</span></div>
+            </div>
+            <div class="gallery-item" data-category="مناسبات" onclick="openLightbox('images/gallery-2_68216282.png')">
+              <img src="images/gallery-2_68216282.png" alt="تصميم حناء - مناسبات" class="gallery-img" style="height:224px">
+              <div class="gallery-overlay"><span class="gallery-cat">مناسبات</span></div>
+            </div>
+            <div class="gallery-item" data-category="عرايس" onclick="openLightbox('images/gallery-3_dad420c6.png')">
+              <img src="images/gallery-3_dad420c6.png" alt="تصميم حناء - عرايس" class="gallery-img" style="height:256px">
+              <div class="gallery-overlay"><span class="gallery-cat">عرايس</span></div>
+            </div>
+            <div class="gallery-item" data-category="حامل" onclick="openLightbox('images/gallery-4_b058de2f.png')">
+              <img src="images/gallery-4_b058de2f.png" alt="تصميم حناء - حامل" class="gallery-img" style="height:224px">
+              <div class="gallery-overlay"><span class="gallery-cat">حامل</span></div>
+            </div>
+            <div class="gallery-item" data-category="مناسبات" onclick="openLightbox('images/gallery-5_25ec77f6.png')">
+              <img src="images/gallery-5_25ec77f6.png" alt="تصميم حناء - مناسبات" class="gallery-img" style="height:288px">
+              <div class="gallery-overlay"><span class="gallery-cat">مناسبات</span></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ========== 6. PRICING ========== -->
+      <section id="pricing" class="section-soft">
+        <div class="container">
+          <h2 class="section-title-gold">باقاتنا</h2>
+          <svg class="silk-divider" viewBox="0 0 120 24" fill="none" aria-hidden="true">
+            <path d="M0 12 Q30 0 60 12 T120 12" stroke="#C9A86A" stroke-width="1.2" fill="none"/>
+          </svg>
+          <p class="section-subtitle">باقات مدروسه تناسب كل مناسبه وميزانيه</p>
+          <div class="pricing-grid">
+            <!-- Basic -->
+            <div class="pricing-card">
+              <h3 class="pricing-name">الباقة الأساسيه</h3>
+              <div class="pricing-price">150 ج.م</div>
+              <ul class="pricing-features">
+                <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="check-icon"><polyline points="20 6 9 17 4 12"></polyline></svg>تصميم على اليد</li>
+                <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="check-icon"><polyline points="20 6 9 17 4 12"></polyline></svg>مدة 30 دقيقه</li>
+                <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="check-icon"><polyline points="20 6 9 17 4 12"></polyline></svg>حناء طبيعيه</li>
+                <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="check-icon"><polyline points="20 6 9 17 4 12"></polyline></svg>استشاره مجانيه</li>
+              </ul>
+              <button onclick="scrollToSection('contact')" class="btn-outline-gold btn-full">احجزي الآن</button>
+            </div>
+            <!-- Featured -->
+            <div class="pricing-card pricing-featured">
+              <span class="pricing-badge">الأفضل</span>
+              <h3 class="pricing-name">الباقة المميزه</h3>
+              <div class="pricing-price">350 ج.م</div>
+              <ul class="pricing-features">
+                <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="check-icon"><polyline points="20 6 9 17 4 12"></polyline></svg>تصميم كامل لليدين</li>
+                <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="check-icon"><polyline points="20 6 9 17 4 12"></polyline></svg>مدة 60 دقيقه</li>
+                <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="check-icon"><polyline points="20 6 9 17 4 12"></polyline></svg>حناء طبيعيه</li>
+                <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="check-icon"><polyline points="20 6 9 17 4 12"></polyline></svg>لمسه ذهبيه</li>
+                <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="check-icon"><polyline points="20 6 9 17 4 12"></polyline></svg>استشاره مجانيه</li>
+              </ul>
+              <button onclick="scrollToSection('contact')" class="btn-outline-gold btn-full">احجزي الآن</button>
+            </div>
+            <!-- Bridal -->
+            <div class="pricing-card">
+              <h3 class="pricing-name">باقة العروس</h3>
+              <div class="pricing-price">500 ج.م</div>
+              <ul class="pricing-features">
+                <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="check-icon"><polyline points="20 6 9 17 4 12"></polyline></svg>تصميم لليدين والقدمين</li>
+                <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="check-icon"><polyline points="20 6 9 17 4 12"></polyline></svg>مدة 120 دقيقه</li>
+                <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="check-icon"><polyline points="20 6 9 17 4 12"></polyline></svg>تصميم حصري</li>
+                <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="check-icon"><polyline points="20 6 9 17 4 12"></polyline></svg>لمسه ذهبيه</li>
+                <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="check-icon"><polyline points="20 6 9 17 4 12"></polyline></svg>زيارة منزليه</li>
+              </ul>
+              <button onclick="scrollToSection('contact')" class="btn-outline-gold btn-full">احجزي الآن</button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ========== 7. TESTIMONIALS ========== -->
+      <section id="testimonials" class="section-white">
+        <div class="container">
+          <h2 class="section-title-gold">كلمات عملائنا</h2>
+          <svg class="silk-divider" viewBox="0 0 120 24" fill="none" aria-hidden="true">
+            <path d="M0 12 Q30 24 60 12 T120 12" stroke="#C9A86A" stroke-width="1.2" fill="none"/>
+          </svg>
+          <p class="section-subtitle">كلماتهن أجمل وسام نحمل</p>
+
+          <div class="testimonial-carousel">
+            <div class="testimonial-viewport">
+              <div class="testimonial-track" id="testimonialTrack">
+                <!-- Slide 1 -->
+                <div class="testimonial-slide">
+                  <div class="testimonial-card">
+                    <div class="stars">
+                      <svg viewBox="0 0 24 24" class="star filled"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+                      <svg viewBox="0 0 24 24" class="star filled"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+                      <svg viewBox="0 0 24 24" class="star filled"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+                      <svg viewBox="0 0 24 24" class="star filled"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+                      <svg viewBox="0 0 24 24" class="star filled"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+                    </div>
+                    <p class="testimonial-text">"تصاميم بيان فخمه وراقيه، أنصح بها بشده! كانت تجربتي رائعه من أول رساله حتى الانتهاء."</p>
+                    <div class="testimonial-avatar">س</div>
+                    <div class="testimonial-name">سارة أحمد</div>
+                  </div>
+                </div>
+                <!-- Slide 2 -->
+                <div class="testimonial-slide">
+                  <div class="testimonial-card">
+                    <div class="stars">
+                      <svg viewBox="0 0 24 24" class="star filled"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+                      <svg viewBox="0 0 24 24" class="star filled"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+                      <svg viewBox="0 0 24 24" class="star filled"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+                      <svg viewBox="0 0 24 24" class="star filled"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+                      <svg viewBox="0 0 24 24" class="star filled"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+                    </div>
+                    <p class="testimonial-text">"أفضل فنانه حناء جربتها، دقيقه في المواعيد وتصاميمها مبدعه. شكراً بيان!"</p>
+                    <div class="testimonial-avatar">ن</div>
+                    <div class="testimonial-name">نوره محمد</div>
+                  </div>
+                </div>
+                <!-- Slide 3 -->
+                <div class="testimonial-slide">
+                  <div class="testimonial-card">
+                    <div class="stars">
+                      <svg viewBox="0 0 24 24" class="star filled"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+                      <svg viewBox="0 0 24 24" class="star filled"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+                      <svg viewBox="0 0 24 24" class="star filled"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+                      <svg viewBox="0 0 24 24" class="star filled"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+                      <svg viewBox="0 0 24 24" class="star filled"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+                    </div>
+                    <p class="testimonial-text">"حناء عرسي كانت أحلى من المتوقع، كل الضيوف سألوني عنها. شكراً من القلب!"</p>
+                    <div class="testimonial-avatar">ف</div>
+                    <div class="testimonial-name">فاطمه علي</div>
+                  </div>
+                </div>
+                <!-- Slide 4 -->
+                <div class="testimonial-slide">
+                  <div class="testimonial-card">
+                    <div class="stars">
+                      <svg viewBox="0 0 24 24" class="star filled"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+                      <svg viewBox="0 0 24 24" class="star filled"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+                      <svg viewBox="0 0 24 24" class="star filled"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+                      <svg viewBox="0 0 24 24" class="star filled"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+                      <svg viewBox="0 0 24 24" class="star"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+                    </div>
+                    <p class="testimonial-text">"تعامل راقٍ ونتيجه مبهرة. بيان فنانه محترفه وذوقها عالي جداً."</p>
+                    <div class="testimonial-avatar">ي</div>
+                    <div class="testimonial-name">ياسمين خالد</div>
+                  </div>
+                </div>
+                <!-- Slide 5 -->
+                <div class="testimonial-slide">
+                  <div class="testimonial-card">
+                    <div class="stars">
+                      <svg viewBox="0 0 24 24" class="star filled"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+                      <svg viewBox="0 0 24 24" class="star filled"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+                      <svg viewBox="0 0 24 24" class="star filled"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+                      <svg viewBox="0 0 24 24" class="star filled"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+                      <svg viewBox="0 0 24 24" class="star filled"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+                    </div>
+                    <p class="testimonial-text">"جربت عندها أكثر من مره وكل مره أبهر من اللي قبلها. ربنا يبارك فيها."</p>
+                    <div class="testimonial-avatar">م</div>
+                    <div class="testimonial-name">مريم سامي</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Dots -->
+            <div class="testimonial-dots" id="testimonialDots">
+              <button class="dot active" onclick="goToTestimonial(0)"></button>
+              <button class="dot" onclick="goToTestimonial(1)"></button>
+              <button class="dot" onclick="goToTestimonial(2)"></button>
+              <button class="dot" onclick="goToTestimonial(3)"></button>
+              <button class="dot" onclick="goToTestimonial(4)"></button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ========== 8. FAQ ========== -->
+      <section id="faq" class="section-soft">
+        <div class="container">
+          <div class="faq-wrapper">
+            <h2 class="section-title-gold">أسئله شائعه</h2>
+            <svg class="silk-divider" viewBox="0 0 120 24" fill="none" aria-hidden="true">
+              <path d="M0 12 Q30 0 60 12 T120 12" stroke="#C9A86A" stroke-width="1.2" fill="none"/>
+            </svg>
+            <p class="section-subtitle">كل ما تحتاجين معرفته قبل موعدك</p>
+
+            <div class="faq-list">
+              <div class="faq-item">
+                <button class="faq-question active" onclick="toggleFaq(0)">
+                  <span>كم تستغرق جلسه الحناء؟</span>
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="faq-chevron"><polyline points="18 15 12 9 6 15"></polyline></svg>
+                </button>
+                <div class="faq-answer open">
+                  <p>تعتمد على التصميم، عاده من 30 دقيقه إلى ساعتين حسب المساحه والتعقيد.</p>
+                </div>
+              </div>
+              <div class="faq-item">
+                <button class="faq-question" onclick="toggleFaq(1)">
+                  <span>هل الحناء طبيعيه 100%؟</span>
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="faq-chevron"><polyline points="18 15 12 9 6 15"></polyline></svg>
+                </button>
+                <div class="faq-answer">
+                  <p>نعم، نستخدم حناء طبيعيه 100% خاليه من أي مواد كيميائيه، آمنه على البشره.</p>
+                </div>
+              </div>
+              <div class="faq-item">
+                <button class="faq-question" onclick="toggleFaq(2)">
+                  <span>كم يدوم لون الحناء؟</span>
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="faq-chevron"><polyline points="18 15 12 9 6 15"></polyline></svg>
+                </button>
+                <div class="faq-answer">
+                  <p>عادة يدوم من 7 إلى 14 يوم حسب نوع البشره وطريقة العناية بعد الرسم.</p>
+                </div>
+              </div>
+              <div class="faq-item">
+                <button class="faq-question" onclick="toggleFaq(3)">
+                  <span>هل تقدمين خدمه منزليه؟</span>
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="faq-chevron"><polyline points="18 15 12 9 6 15"></polyline></svg>
+                </button>
+                <div class="faq-answer">
+                  <p>نعم، نقدم خدمه منزليه في القاهره والجيزه مقابل رسوم إضافيه بسيطه.</p>
+                </div>
+              </div>
+              <div class="faq-item">
+                <button class="faq-question" onclick="toggleFaq(4)">
+                  <span>كيف أحجز موعد؟</span>
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="faq-chevron"><polyline points="18 15 12 9 6 15"></polyline></svg>
+                </button>
+                <div class="faq-answer">
+                  <p>يمكنك الحجز عبر الواتساب أو الاتصال المباشر، وسنؤكد لك الموعد فوراً.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ========== 9. CONTACT ========== -->
+      <section id="contact" class="section-white">
+        <div class="container">
+          <h2 class="section-title-gold">احجزي موعدك</h2>
+          <svg class="silk-divider" viewBox="0 0 120 24" fill="none" aria-hidden="true">
+            <path d="M0 12 Q30 24 60 12 T120 12" stroke="#C9A86A" stroke-width="1.2" fill="none"/>
+          </svg>
+          <p class="section-subtitle">رساله واحده تفصلك عن لوحه فنيه على يدك</p>
+
+          <div class="contact-grid">
+            <!-- Contact Info -->
+            <div class="glass-card contact-info-card">
+              <h3 class="contact-info-title">معلومات التواصل</h3>
+              <div class="gold-line-sm"></div>
+              <div class="contact-list">
+                <a href="tel:+201234567890" class="contact-item">
+                  <div class="contact-icon">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+                  </div>
+                  <span>+20 123 456 7890</span>
+                </a>
+                <a href="https://wa.me/201234567890" target="_blank" rel="noopener noreferrer" class="contact-item">
+                  <div class="contact-icon">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7.9 20A9 9 0 1 0 4 16.1L2 22Z"></path></svg>
+                  </div>
+                  <span>+20 123 456 7890</span>
+                </a>
+                <div class="contact-item">
+                  <div class="contact-icon">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+                  </div>
+                  <span>القاهره، مصر</span>
+                </div>
+                <div class="contact-item">
+                  <div class="contact-icon">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
+                  </div>
+                  <span>السبت - الخميس: 10 ص - 8 م</span>
+                </div>
+                <a href="https://instagram.com/bayanart.egy" target="_blank" rel="noopener noreferrer" class="contact-item">
+                  <div class="contact-icon">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg>
+                  </div>
+                  <span>@bayanart.egy</span>
+                </a>
+              </div>
+            </div>
+
+            <!-- Map -->
+            <div class="map-wrapper">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d27605.140779187897!2d31.21569635!3d30.04441975!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x145840aed31b1e37%3A0xdd99c0a5e9a89877!2sCairo%2C%20Egypt!5e0!3m2!1sen!2seg!4v1700000000000!5m2!1sen!2seg"
+                width="100%"
+                height="100%"
+                style="border:0; min-height:400px;"
+                allowfullscreen
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+                title="موقعنا على الخريطة">
+              </iframe>
+            </div>
+          </div>
+        </div>
+      </section>
+
+    </main>
+
+    <!-- ========== FOOTER ========== -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-grid">
+          <!-- Logo & Description -->
+          <div class="footer-col">
+            <div class="footer-logo">
+              <img src="images/logo_a4e7bf47.png" alt="BAYAN ART" class="footer-logo-img">
+              <span class="footer-logo-text">
+                <span class="footer-brand">BAYAN ART</span>
+                <span class="footer-tagline">أتيليه الحناء</span>
+              </span>
+            </div>
+            <p class="footer-desc">
+              فنانه حناء محترفه في مصر. نصنع تصاميم حناء فريده ومميزه تناسب كل مناسباتك.
+            </p>
+            <div class="footer-socials">
+              <a href="https://instagram.com/bayanart.egy" target="_blank" rel="noopener noreferrer" class="social-icon" aria-label="Instagram">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg>
+              </a>
+              <a href="#" class="social-icon" aria-label="Facebook">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path></svg>
+              </a>
+              <a href="#" class="social-icon" aria-label="TikTok">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 18V5l12-2v13"></path><circle cx="6" cy="18" r="3"></circle><circle cx="18" cy="16" r="3"></circle></svg>
+              </a>
+            </div>
+          </div>
+
+          <!-- Quick Links -->
+          <div class="footer-col">
+            <h4 class="footer-heading">روابط سريعه</h4>
+            <ul class="footer-links">
+              <li><button onclick="scrollToSection('hero')" class="footer-link">الرئيسيه</button></li>
+              <li><button onclick="scrollToSection('why-choose')" class="footer-link">لماذا بيان</button></li>
+              <li><button onclick="scrollToSection('about')" class="footer-link">من نحن</button></li>
+              <li><button onclick="scrollToSection('services')" class="footer-link">خدماتنا</button></li>
+              <li><button onclick="scrollToSection('gallery')" class="footer-link">المعرض</button></li>
+              <li><button onclick="scrollToSection('pricing')" class="footer-link">الأسعار</button></li>
+              <li><button onclick="scrollToSection('testimonials')" class="footer-link">الآراء</button></li>
+              <li><button onclick="scrollToSection('faq')" class="footer-link">الأسئله</button></li>
+              <li><button onclick="scrollToSection('contact')" class="footer-link">تواصلي معنا</button></li>
+            </ul>
+          </div>
+
+          <!-- Contact Info -->
+          <div class="footer-col">
+            <h4 class="footer-heading">تواصلي معنا</h4>
+            <div class="footer-contact-list">
+              <p class="footer-contact-item">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="footer-contact-icon"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+                القاهره، مصر
+              </p>
+              <p class="footer-contact-item">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="footer-contact-icon"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+                +20 123 456 7890
+              </p>
+              <p class="footer-contact-item">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="footer-contact-icon"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
+                السبت - الخميس: 10 ص - 8 م
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="footer-bottom">
+          <p>جميع الحقوق محفوظه &copy; <span id="currentYear"></span> BAYAN ART</p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- ========== FLOATING BUTTONS ========== -->
+    <div class="floating-buttons">
+      <a href="https://wa.me/201234567890" target="_blank" rel="noopener noreferrer" class="float-btn float-whatsapp" aria-label="WhatsApp">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7.9 20A9 9 0 1 0 4 16.1L2 22Z"></path></svg>
+      </a>
+      <a href="tel:+201234567890" class="float-btn float-phone" aria-label="اتصل بنا">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+      </a>
+      <a href="https://instagram.com/bayanart.egy" target="_blank" rel="noopener noreferrer" class="float-btn float-insta" aria-label="Instagram">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg>
+      </a>
+    </div>
+
+    <!-- ========== SCROLL TO TOP ========== -->
+    <button class="scroll-top-btn" id="scrollTopBtn" onclick="window.scrollTo({top:0,behavior:'smooth'})" aria-label="العوده للاعلى">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="18 15 12 9 6 15"></polyline></svg>
+    </button>
+
+    <!-- ========== LIGHTBOX ========== -->
+    <div class="lightbox" id="lightbox" onclick="closeLightbox()">
+      <button class="lightbox-close" aria-label="إغلاق">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+      </button>
+      <img src="" alt="معاينه" class="lightbox-img" id="lightboxImg">
+    </div>
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
